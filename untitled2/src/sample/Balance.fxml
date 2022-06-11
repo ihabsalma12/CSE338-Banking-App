@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BalanceController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8b525" height="26.0" layoutX="14.0" layoutY="328.0" stroke="#f8b525" strokeType="INSIDE" width="81.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8b525" height="26.0" layoutX="509.0" layoutY="357.0" stroke="#f8b525" strokeType="INSIDE" width="48.0" />
+      <Circle fill="#f8b525" layoutX="378.0" layoutY="301.0" radius="34.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Circle fill="#f8b525" layoutX="97.0" layoutY="209.0" radius="92.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Circle fill="#f8b525" layoutX="198.0" layoutY="284.0" radius="92.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Circle fill="#f8b525" layoutX="318.0" layoutY="197.0" radius="34.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Circle fill="#0a566f" layoutX="480.0" layoutY="65.0" radius="47.0" stroke="#0a566f" strokeType="INSIDE" />
+      <Circle fill="#0a566f" layoutX="551.0" layoutY="197.0" radius="47.0" stroke="#0a566f" strokeType="INSIDE" />
+      <Circle fill="#0a566f" layoutX="441.0" layoutY="309.0" radius="47.0" stroke="#0a566f" strokeType="INSIDE" />
+      <Circle fill="#0a566f" layoutX="331.0" layoutY="135.0" radius="47.0" stroke="#0a566f" strokeType="INSIDE" />
+      <Circle fill="#f8b525" layoutX="506.0" layoutY="275.0" radius="63.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Circle fill="#f8b525" layoutX="394.0" layoutY="72.0" radius="63.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0" layoutX="14.0" layoutY="9.0" stroke="#f8b525" strokeType="INSIDE" strokeWidth="3.0" width="245.0" />
+      <Circle fill="#0a566f" layoutX="60.0" layoutY="53.0" radius="37.0" stroke="#0a566f" strokeType="INSIDE" strokeWidth="3.0" />
+      <Circle fill="#0a566f" layoutX="440.0" layoutY="188.0" radius="113.0" stroke="#0a566f" strokeType="INSIDE" />
+      <Circle fill="#f8b525" layoutX="440.0" layoutY="188.0" radius="100.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="440.0" layoutY="188.0" radius="87.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Label alignment="CENTER" layoutX="377.0" layoutY="115.0" prefHeight="68.0" prefWidth="125.0" text="Balance" textAlignment="CENTER" textFill="#f8b525">
+         <font>
+            <Font name="Britannic Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="374.0" layoutY="183.0" prefHeight="74.0" prefWidth="132.0" textFill="#f8b525" fx:id="ba">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Circle fill="#f8b525" layoutX="60.0" layoutY="53.0" radius="34.0" stroke="#f8b525" strokeType="INSIDE" strokeWidth="3.0" />
+      <Circle fill="#0a566f" layoutX="60.0" layoutY="34.0" radius="11.0" stroke="#0a566f" strokeType="INSIDE" strokeWidth="3.0" />
+      <Arc fill="#0a566f" layoutX="60.0" layoutY="77.0" length="180.0" radiusX="17.0" radiusY="30.0" stroke="#0a566f" strokeType="INSIDE" type="ROUND" />
+      <Label layoutX="107.0" layoutY="14.0" prefHeight="40.0" prefWidth="146.0" text="Name" textFill="#0a566f" fx:id="nm">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="49.0" prefHeight="40.0" prefWidth="146.0" text="ID" textFill="#0a566f" fx:id="id">
+         <font>
+            <Font name="Berlin Sans FB" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a566f" height="129.0" layoutX="14.0" layoutY="184.0" stroke="#0a566f" strokeType="INSIDE" width="245.0" />
+      <Label alignment="CENTER" layoutX="18.0" layoutY="229.0" prefHeight="40.0" prefWidth="238.0" text="xxxx xxxx xxxx xxxx" textFill="WHITE" fx:id="cn">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="173.0" layoutY="284.0" prefHeight="8.0" prefWidth="49.0" text="CVV" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="204.0" layoutY="284.0" prefHeight="8.0" prefWidth="49.0" text="xxx" textFill="WHITE" fx:id="cvc">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="284.0" prefHeight="8.0" prefWidth="49.0" text="EXP" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="60.0" layoutY="284.0" prefHeight="8.0" prefWidth="49.0" text="xx/xx" textFill="WHITE" fx:id="exp">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <Circle fill="#f8b525" layoutX="60.0" layoutY="209.0" radius="14.0" stroke="#f8b525" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="46.0" layoutY="209.0" radius="14.0" stroke="WHITE" strokeType="INSIDE" />
+      <Button alignment="CENTER" layoutX="516.0" layoutY="363.0" mnemonicParsing="false" onAction="#goToDashboard" style="-fx-background-color: #0a566f;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="19.0" layoutY="335.0" mnemonicParsing="false" onAction="#getCard" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #0a566f;" text="Get Card" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
