@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0a566f;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="22.0" layoutX="390.0" layoutY="350.0" stroke="WHITE" strokeType="INSIDE" width="111.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="22.0" layoutX="83.0" layoutY="350.0" stroke="WHITE" strokeType="INSIDE" width="111.0" />
+      <ImageView fitHeight="291.0" fitWidth="302.0" layoutX="300.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/1b.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="293.0" fitWidth="291.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/1a.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.60000610351562" endY="329.9999694824219" layoutX="391.0" layoutY="71.0" startX="-100.60000610351562" startY="-69.59999084472656" stroke="WHITE" strokeWidth="4.0" />
+      <Button layoutX="89.0" layoutY="355.0" mnemonicParsing="false" onAction="#goToStore" prefHeight="22.0" prefWidth="111.0" style="-fx-background-color: F8B525;" text="Make Purchases" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="397.0" layoutY="355.0" mnemonicParsing="false" onAction="#goToSignUpOrLogIn" style="-fx-background-color: F8B525;" text="Go To Online Bank" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
